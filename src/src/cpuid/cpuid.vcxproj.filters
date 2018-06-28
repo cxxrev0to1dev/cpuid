@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{571ea8b3-f09a-4201-b298-8ffae4d74228}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\cpuid">
+      <UniqueIdentifier>{197e55b9-81ee-4905-a406-72c57882fe52}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="cpuid.cpp">
+      <Filter>src\cpuid</Filter>
+    </ClCompile>
+    <ClCompile Include="cpuid_unittest.cpp">
+      <Filter>src\cpuid</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="cpuid.h">
+      <Filter>src\cpuid</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

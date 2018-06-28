@@ -1,0 +1,1 @@
+"C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\amd64\ml64.exe" /c /nologo /Fo cpuid64.obj /Zi cpuid64.asm
