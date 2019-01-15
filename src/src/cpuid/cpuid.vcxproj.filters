@@ -21,4 +21,9 @@
       <Filter>src\cpuid</Filter>
     </ClInclude>
   </ItemGroup>
+  <ItemGroup>
+    <MASM Include="cpuid64.asm">
+      <Filter>src\cpuid</Filter>
+    </MASM>
+  </ItemGroup>
 </Project>

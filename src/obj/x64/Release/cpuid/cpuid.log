@@ -1,2 +1,11 @@
-﻿  cpuid.vcxproj -> D:\workspace\cpuid\\bin\Release\cpuid_x64.exe
-  cpuid.vcxproj -> D:\workspace\cpuid\\bin\Release\cpuid_x64.pdb (Full PDB)
+﻿  Assembling cpuid64.asm...
+  cpuid.cpp
+  cpuid_unittest.cpp
+  Generating code
+  476 of 481 functions (99.0%) were compiled, the rest were copied from previous compilation.
+    6 functions were new in current compilation
+    1 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+gtest_x64.lib(gtest-all.obj) : warning LNK4099: PDB 'gtest.pdb' was not found with 'gtest_x64.lib(gtest-all.obj)' or at 'D:\workspace\cpuid\src\bin\Release\gtest.pdb'; linking object as if no debug info
+  cpuid.vcxproj -> D:\workspace\cpuid\src\\bin\Release\cpuid_x64.exe
+  cpuid.vcxproj -> D:\workspace\cpuid\src\\bin\Release\cpuid_x64.pdb (Full PDB)

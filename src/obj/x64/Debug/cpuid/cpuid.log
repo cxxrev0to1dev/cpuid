@@ -1,3 +1,4 @@
-﻿  cpuid_unittest.cpp
-  cpuid.vcxproj -> D:\workspace\cpuid\\bin\Debug\cpuid_x64.exe
-  cpuid.vcxproj -> D:\workspace\cpuid\\bin\Debug\cpuid_x64.pdb (Full PDB)
+﻿  Assembling cpuid64.asm...
+gtest_x64.lib(gtest-all.obj) : warning LNK4204: 'D:\workspace\cpuid\src\bin\Debug\gtest.pdb' is missing debugging information for referencing module; linking object as if no debug info
+  cpuid.vcxproj -> D:\workspace\cpuid\src\\bin\Debug\cpuid_x64.exe
+  cpuid.vcxproj -> D:\workspace\cpuid\src\\bin\Debug\cpuid_x64.pdb (Full PDB)

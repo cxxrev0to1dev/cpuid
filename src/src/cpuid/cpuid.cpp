@@ -4,7 +4,6 @@
 #include <cstdio>
 
 #if defined(OS_WIN) && defined(OS_WIN_X64)
-#pragma comment(lib,"cpuid64.obj")
 extern "C" void cpuid64(unsigned long func, unsigned long arg, unsigned long *words);
 #endif
 
